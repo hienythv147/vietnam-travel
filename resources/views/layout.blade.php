@@ -324,9 +324,9 @@
                   <div class="col-md-12 col-xs-12 box-mainmenu">
                      <nav class="menunav">
                         <ul class="ulwap-mainmenu">
-                           <li><a href="https://vietnamtravel.net.vn" class="mn-home"><i class="fa fa-home"></i></a></li>
+                           <li><a href="{{route('home')}}" class="mn-home"><i class="fa fa-home"></i></a></li>
                            <li class="megamenusub" style="border-color:white">
-                              <a href="https://vietnamtravel.net.vn/vi/san-pham/1-du-lich-trong-nuoc.html" class=" 'active' ">
+                              <a href="{{route('tour', ['du-lich-noi-dia'])}}" class=" 'active' ">
                               Du lịch trong nước
                               </a>
                               <ul>
@@ -335,7 +335,7 @@
                                     <i class="fa fa-map-marker"></i>  Du lịch Hạ Long Cát Bà
                                     </a>
                                  </li>
-                                 <li class="" style="border-color:white">
+                                 <!-- <li class="" style="border-color:white">
                                     <a href="https://vietnamtravel.net.vn/vi/san-pham/4-du-lich-sapa-2018.html" class="">
                                     <i class="fa fa-map-marker"></i>  Du lịch Hà Nội Sapa Lào Cai
                                     </a>
@@ -394,11 +394,11 @@
                                     <a href="https://vietnamtravel.net.vn/vi/san-pham/89-du-lich-ban-me-thuot.html" class="">
                                     <i class="fa fa-map-marker"></i>  Du lịch Ban Mê Thuột
                                     </a>
-                                 </li>
+                                 </li> -->
                               </ul>
                            </li>
                            <li class="megamenusub" style="border-color:white">
-                              <a href="https://vietnamtravel.net.vn/vi/san-pham/84-du-lich-nuoc-ngoai.html" class=" 'active' ">
+                              <a href="{{route('tour', ['du-lich-nuoc-ngoai'])}}" class=" 'active' ">
                               Du lịch nước ngoài
                               </a>
                               <ul>
@@ -407,7 +407,7 @@
                                     <i class="fa fa-map-marker"></i>  Du lịch Thái Lan
                                     </a>
                                  </li>
-                                 <li class="" style="border-color:white">
+                                 <!-- <li class="" style="border-color:white">
                                     <a href="https://vietnamtravel.net.vn/vi/san-pham/143-du-lich-campuchia.html" class="">
                                     <i class="fa fa-map-marker"></i>  Du lịch Campuchia
                                     </a>
@@ -471,10 +471,10 @@
                                     <a href="https://vietnamtravel.net.vn/vi/san-pham/157-du-lich-dubai.html" class="">
                                     <i class="fa fa-map-marker"></i>  Du lịch Dubai
                                     </a>
-                                 </li>
+                                 </li> -->
                               </ul>
                            </li>
-                           <li class="" style="border-color:white">
+                           <!-- <li class="" style="border-color:white">
                               <a href="http://vietnamtravel.net.vn/vi/san-pham/162-kieu-tour-du-lich.html" class=" 'active' ">
                               Kiểu tour du lịch
                               </a>
@@ -554,9 +554,9 @@
                               <a href="http://vietnamtravel.net.vn/vi/tin/77-cam-nang-du-lich.html" class="">
                               Cẩm nang du lịch
                               </a>
-                           </li>
+                           </li> -->
                            <li class="" style="border-color:white">
-                              <a href="https://vietnamtravel.net.vn/vi/tin/92-dich-vu-hoan-hao.html" class=" 'active' ">
+                              <a href="#" class=" 'active' ">
                               Dịch vụ
                               </a>
                               <ul>
@@ -573,7 +573,7 @@
                               </ul>
                            </li>
                            <li class="" style="border-color:white">
-                              <a href="/vi/tin/1-gioi-thieu.html" class="">
+                              <a href="#" class="">
                               Giới thiệu
                               </a>
                            </li>
@@ -810,7 +810,7 @@
                <div class="col-md-3 col-xs-6 cl-mb-half-0">
                   <div class="bximg-request-dd">
                      <a href="https://vietnamtravel.net.vn/vi/san-pham/137-du-lich-thai-lan.html">
-                        <img src="{{asset('images/thai-lan.jpg')}}" alt="Du lịch Thái Lan">
+                        <img src="{{asset('frontend/images/thai-lan.jpg')}}" alt="Du lịch Thái Lan">
                         <div class="capition-dd"><i class="fa fa-map-marker"></i> Du lịch Thái Lan</div>
                      </a>
                   </div>
